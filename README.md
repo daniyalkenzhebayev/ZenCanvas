@@ -1,25 +1,22 @@
-ZenCanvas: Smart Hierarchical Planning & Documentation
-Project Overview ZenCanvas is a productivity tool designed to bridge the gap between structured task management and free-form note-taking. Unlike traditional list-based apps, ZenCanvas allows users to create an infinite hierarchy of goals, where every node acts as a standalone document for deep planning.
-+2
-Key Features Implemented
+# ZenCanvas: Hierarchical Productivity & Habit Suite
 
-Recursive Task Engine: Developed a custom tree-structure algorithm in Dart that supports infinite nesting of sub-tasks, enabling granular project breakdown.
-+1
+ZenCanvas is a high-performance productivity tool built with **Flutter** that merges structured task management, deep documentation, and visual habit tracking into a single ecosystem.
 
-Dual-Pane Architecture: Engineered a responsive interface where the left panel manages the hierarchy and the right panel serves as a dedicated Rich-Text Editor for each task.
+## 🚀 Key Features
 
-Contextual Data Containers: Each task is designed as a unique data object containing both its position in the tree and its associated markdown-style notes.
+* **Infinite Task Nesting:** Implemented a recursive tree-based architecture allowing users to break down complex goals into unlimited sub-levels.
+* **Dual-Pane Workspace:** A professional-grade UI featuring a navigation hierarchy on the left and a dynamic workspace on the right.
+* **Integrated Documentation Engine:** Each task node functions as a standalone document for long-form writing and strategy development.
+* **Dynamic Habit Tracker:** * Automated generation of interactive 365-day grids.
+    * State-based color coding (Red/Yellow/Green) for daily progress visualization.
+    * Metadata persistence: Each calendar day supports unique text logs and status tracking.
 
-Real-time State Management: Implemented an "auto-save" logic using Flutter’s state hooks to ensure note persistence and seamless user flow.
-Current Technical Stack
+## 🛠 Tech Stack
+* **Framework:** Flutter (Multi-platform)
+* **Language:** Dart
+* **Concepts:** Recursive Data Structures, State Management, Dynamic UI Generation.
 
-Framework: Flutter (Mobile/Desktop).
-Language: Dart.
-
-Version Control: Git.
-Future Roadmap
-[ ] Integration of an AI-powered "Motivation Engine" to provide contextual quotes based on task progress.
-
-[ ] Local database persistence for offline-first usage.
-
-[ ] Visual "Canvas Mode" for mind-mapping tasks.
+## 📈 Future Roadmap
+* AI-driven productivity analytics.
+* Cloud synchronization for cross-device usage.
+* Customizable themes and 3D UI elements (Blender integration).
