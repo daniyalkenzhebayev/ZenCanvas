@@ -31,9 +31,3 @@ Windows | macOS | Linux | Android | iOS | Web
 
 Flutter, Dart, Material Design 3, SharedPreferences
 
-## Лицензия
-
-MIT
-/android/app/debug
-/android/app/profile
-/android/app/release
